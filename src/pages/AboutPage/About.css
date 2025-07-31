@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-section{
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+}
+.about-text{
+    width: 40%;
+    padding: 20px;
+    align-self: center; 
+    line-height: 1.6;
+    margin-right: 50px;
+}
+.about-text > p > span{
+    color: blue;
+    font-weight: 600;
+
+}
+.about-skills{
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.skill-1, .skill-2, .skill-3, .skill-4{
+    /* padding: ; */
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}

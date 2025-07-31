@@ -1,0 +1,46 @@
+ .hero-section{
+    display: flex;
+    flex-direction: row;
+    margin: 150px;
+ }
+.hero-image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+.hero-content{
+    align-self: center;
+    width: 40%;
+    padding-bottom: 50px;
+}
+.hero-content h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.hero-content span{
+    color: blue;
+}
+/* .hero-content #link {
+    text-decoration: none;
+    background-color: lightblue;
+    width: 2o;
+    
+} */
+
+ @media screen and (max-width: 480px){
+
+.hero-section{
+   
+    flex-direction: column-reverse;
+    margin: 0px;
+ }
+  .hero-image{
+     margin-top: 40px;
+  }
+
+  /* .hero-content{
+    
+  } */
+ }

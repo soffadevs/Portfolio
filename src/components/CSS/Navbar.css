@@ -1,0 +1,43 @@
+ *{
+   padding: 0px;
+   margin: 0px;
+   font-family: 'Poppins', sans-serif;
+   
+   /* text-decoration: none; */
+ }
+ .Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 20px;
+ }
+ .Nav{
+    display: flex;
+    justify-content: row;
+    gap: 40px;
+    list-style: none;
+    border: 5px solid navy;
+    background-color: blue;
+    box-shadow: 0 4px 8px navy;
+    padding: 20px;
+    border-radius: 50px;
+    margin-right: 500px;
+ }
+ .Nav-text{
+    color: navy;
+    margin-left: 50px;
+    align-self: center;
+ }
+ .Nav > a{
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      font-size: 20px;
+ }
+
+
+ @media screen and (max-width: 480px){
+  .Nav{
+   display: none;
+  }
+ }
