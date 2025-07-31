@@ -5,7 +5,7 @@ import './CSS/Hero.css';
 
 const Hero = () => {
   return (
-    
+    <></>
   )
 }
 
