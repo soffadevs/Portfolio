@@ -31,3 +31,52 @@
     border-radius: 5px;
     
 }
+
+
+@media screen and (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    margin: 30px 20px;
+  }
+
+  .about-text,
+  .about-skills {
+    width: 100%;
+  }
+
+  .about-skills {
+    grid-template-columns: 1fr;
+  }
+
+  .about-text p {
+    font-size: 14px;
+  }
+
+  .skill-1 h1,
+  .skill-2 h1,
+  .skill-3 h1,
+  .skill-4 h1 {
+    font-size: 20px;
+  }
+
+  .skill-1 p,
+  .skill-2 p,
+  .skill-3 p,
+  .skill-4 p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-text p {
+    font-size: 12px;
+  }
+
+  .about-section {
+    margin: 20px 10px;
+  }
+
+  .about-skills {
+    gap: 10px;
+  }
+}

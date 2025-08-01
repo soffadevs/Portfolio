@@ -4,8 +4,7 @@ import './About.css'
 const About = () => {
   return (
     <div>
-   
-                      <Navbar/>
+         <Navbar/>
         <div className='about-title'>
           <h1 style={{textAlign: 'center', padding: '10px', textTransform: 'uppercase', color: 'blue', fontWeight: 800, fontSize: '40px'}}>About Me</h1>
         </div>

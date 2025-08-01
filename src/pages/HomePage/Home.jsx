@@ -5,7 +5,7 @@ import Pic from './../../assets/images/img.png';
 import './Home.css';
 const Home = () => {
 
-  return (
+  return ( 
     <div>
       <Navbar />
       <section className='hero-section'>
